@@ -7,6 +7,7 @@ servers = {
     'gmail.com': 'imap.gmail.com',
     'yandex.ru': 'imap.yandex.ru',
     'hotmail.com': 'imap-mail.outlook.com',
+    'outlook.com': 'imap-mail.outlook.com',
 }
 
 
@@ -64,6 +65,5 @@ def get_code(mail, mail_pass):
         except:
             pass
         imap.logout()
-
 
 
